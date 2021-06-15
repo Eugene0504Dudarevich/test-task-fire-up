@@ -1,0 +1,68 @@
+.ant-form-item-control-input-content {
+    display: flex;
+    align-items: center;
+}
+.ant-form-item-label {
+    margin: 10px 0;
+}
+.ant-input {
+    height: 36px;
+    padding: 0 10px;
+}
+.remove-keyword-button {
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: blue;
+    margin-left: 10px;
+}
+.minus {
+    width: 20px;
+    height: 3px;
+    background-color: white;
+}
+.remove-keyword-button span {
+    font-size: 20px;
+    color: white;
+}
+.add-keyword-button, .add-category-button, .close-section-button {
+    background-color: yellow;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.add-keyword-button {
+    padding: 5px 10px;
+}
+
+.add-keyword-button span, .add-category-button span, .close-section-button span {
+    color: black;
+}
+
+.add-keyword-button span {
+    font-size: 14px;
+}
+
+.add-category-button, .close-section-button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.add-category-button span, .close-section-button span {
+    font-size: 20px;
+}
+
+.buttons-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.close-section-button {
+    margin-left: 10px;
+}
+
+.ant-form-item-explain-error {
+    color: red;
+}

@@ -1,0 +1,34 @@
+{
+  "name": "test-task-backend",
+  "version": "1.0.0",
+  "description": "This is back-end part of test-task app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Eugene0504Dudarevich/test-task-fire-up.git"
+  },
+  "author": "Eugene Dudarevich",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "^2.6.9",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "http-errors": "^1.7.2",
+    "jade": "^1.11.0",
+    "mongodb": "^3.6.9",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-stream": "^6.1.2"
+  }
+}

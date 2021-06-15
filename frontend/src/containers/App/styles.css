@@ -1,0 +1,9 @@
+.main-container {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.main-container h1 {
+    color: yellow;
+    font-size: 42px;
+}
